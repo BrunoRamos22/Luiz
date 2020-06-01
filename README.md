@@ -62,7 +62,7 @@ Represente a forma expandida do binômio (4 + y)³:
 Como o expoente do binômio é 3, vamos multiplicar os termos da seguinte forma:
 (4 + y) . (4 + y) . (4 + y) = (16 + 8y + y²) . (4 + y) = 64 + 48y + 12y² + y³
 
-10 - O MMC entre dois números naturais (vou me limitar ao conjunto dos números naturais) é o menor número natural que é múltiplo de ambos os números. Exemplos:
+10- O MMC entre dois números naturais (vou me limitar ao conjunto dos números naturais) é o menor número natural que é múltiplo de ambos os números. Exemplos:
 o MMC de 24 e 12 é igual a 24;
 o MMC de 36 e 14 é igual a 252;
 o MMC de 11 e 9 é igual a 99.
@@ -85,10 +85,14 @@ O problema dos métodos anteriores é que a fatoração de números inteiros é 
 
 16- O algoritmo de Dijkstra soluciona o problema do caminho mais curto num grafo dirigido ou não dirigido com arestas de peso não negativo, em tempo computacional O(m + n log n) onde m é o número de arestas e n é o número de vértices. O algoritmo que serve para resolver o mesmo problema em um grafo com pesos negativos é o algoritmo de Bellman-Ford, que possui maior tempo de execução que o Dijkstra. O algoritmo considera um conjunto S de menores caminhos, iniciado com um vértice inicial I. A cada passo do algoritmo busca-se nas adjacências dos vértices pertencentes a S aquele vértice com menor distância relativa a I e adiciona-o a S e, então, repetindo os passos até que todos os vértices alcançáveis por I estejam em S. Arestas que ligam vértices já pertencentes a S são desconsideradas.
 
-17 - O numero de armstrong, ou numero narcisista, é o numero que se somado todos os seus algorismos elevado a quantidade de algorismo que compõe o numero, retornará ele mesmo.
+17- O numero de armstrong, ou numero narcisista, é o numero que se somado todos os seus algorismos elevado a quantidade de algorismo que compõe o numero, retornará ele mesmo.
 
-18 - PageRank é o sistema utilizado na google para determinar a notoriedade de um site no mecanismo de pesquisa. Esse sistema utiliza o apontamento de outros sites para classificar ele como relevante ou não.
+18- PageRank é o sistema utilizado na google para determinar a notoriedade de um site no mecanismo de pesquisa. Esse sistema utiliza o apontamento de outros sites para classificar ele como relevante ou não.
 
-19 - Algoritimo determistico é aquele que para uma determidada entrada de dados sempre resultará em uma saída, passando pelos mesmos processos sempre. Já o probabilistico consiste no processo de probabilidade de resultado ou entrada de dados, podendo assim não ter um resultado unico para uma entrada. O melhor e pior caso para um algoritimo, é a relação entre varios fatores, como por exemplo a velocidade de execução e a quantidade de recurso que tal algoritmo irá usar, traçando uma relação entre esses fatores se encontra o melhor e pior caso.
+19- Algoritimo determistico é aquele que para uma determidada entrada de dados sempre resultará em uma saída, passando pelos mesmos processos sempre. Já o probabilistico consiste no processo de probabilidade de resultado ou entrada de dados, podendo assim não ter um resultado unico para uma entrada. O melhor e pior caso para um algoritimo, é a relação entre varios fatores, como por exemplo a velocidade de execução e a quantidade de recurso que tal algoritmo irá usar, traçando uma relação entre esses fatores se encontra o melhor e pior caso.
 
-20 - Algoritimo genético é uma tecnica inspirada no processo biologico de evolução. São criadas soluções aleatorias para um problema, e essas soluções que conseguirem passar pelo problema são recombinados e sofrem mutação nas entradas de dados para que tenham um melhor desempenho no proximo obstaculo.
+20- Algoritimo genético é uma tecnica inspirada no processo biologico de evolução. São criadas soluções aleatorias para um problema, e essas soluções que conseguirem passar pelo problema são recombinados e sofrem mutação nas entradas de dados para que tenham um melhor desempenho no proximo obstaculo.
+
+21- Em matemática, uma cadeia de Markov é um caso particular de processo estocástico com estados discretos (o parâmetro, em geral o tempo, pode ser discreto ou contínuo) com a propriedade de que a distribuição de probabilidade do próximo estado depende apenas do estado atual e não na sequência de eventos que precederam, uma propriedade chamada de Markoviana, chamada assim em homenagem ao matemático Andrei Andreyevich Markov. A definição dessa propriedade, também chamada de memória markoviana, é que os estados anteriores são irrelevantes para a predição dos estados seguintes, desde que o estado atual seja conhecido. Cadeias de Markov têm muitas aplicações como modelos estatísticos de processos do mundo real.
+
+22- O estado da arte é o nível mais alto de desenvolvimento, seja de um aparelho, de uma técnica ou de uma área científica, alcançado em um tempo definido, como "Este novo televisor reflete o estado da arte em tecnologia de projeção", ou "Jimi Hendrix trouxe o estado da arte para a guitarra". Portanto sigifica dizer que aquele algoritmo ou teoria é a melhor possível no momento em que foi pensado ou criado, ou seja, a maior evolução até esse ponto.
